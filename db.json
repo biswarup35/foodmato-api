@@ -1,0 +1,530 @@
+{
+    "formats": [
+        {
+            "id": 1,
+            "name": "Buffet"
+        },
+        {
+            "id": 2,
+            "name": "Mini Buffet"
+        },
+        {
+            "id": 3,
+            "name": "Lunch Box"
+        },
+        {
+            "id": 4,
+            "name": "Snack Box"
+        },
+        {
+            "id": 5,
+            "name": "Live Counter"
+        },
+        {
+            "id": 6,
+            "name": "Food Truck"
+        },
+        {
+            "id": 7,
+            "name": "Pop Up"
+        }
+    ],
+    "types": [
+        {
+            "id": 1,
+            "name": "veg"
+        },
+        {
+            "id": 2,
+            "name": "non-veg"
+        }
+    ],
+    "occasions": [
+        {
+            "id": 1,
+            "name": "Birthday Celebration"
+        }
+    ],
+    "restaurants": [
+        {
+            "id": 1,
+            "name": "Barbeque Nation",
+            "totalDish": 10,
+            "cover": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Chicken-Bites-with-Apricot-Sauce_EXPS_HCA21_35632_E10_09_7b-2.jpg?resize=768,768",
+            "price": 350,
+            "rating": 4.5,
+            "totalRatings": 100,
+            "type": [
+                "veg",
+                "non-veg"
+            ],
+            "format": [
+                "Lunch_Box",
+                "Snack_Box",
+                "Buffet",
+                "Mini_Buffet"
+            ],
+            "occasion": [
+                "Birthday_Celebration",
+                "Baby_Shower",
+                "House_Party"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "The Grill",
+            "totalDish": 8,
+            "cover": "https://www.tasteofhome.com/wp-content/uploads/2019/05/Banh-Mi-Skewers_EXPS_SDJJ19_233992_B02_05_2b.jpg?resize=768,768",
+            "price": 250,
+            "rating": 3,
+            "totalRatings": 175,
+            "type": [
+                "veg"
+            ],
+            "format": [
+                "Lunch_Box",
+                "Snack_Box",
+                "Food_Trucks",
+                "Pop_Up"
+            ],
+            "occasion": [
+                "House_Warming",
+                "House_Party",
+                "Society_Event"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Smoke House Deli",
+            "totalDish": 12,
+            "cover": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps29412_MC163887D03_08_4b-1.jpg?resize=768,768",
+            "price": 200,
+            "rating": 5,
+            "totalRatings": 520,
+            "type": [
+                "veg",
+                "non-veg"
+            ],
+            "format": [
+                "Lunch_Box",
+                "Snack_Box",
+                "Buffet",
+                "Mini_Buffet",
+                "Live_Counter"
+            ],
+            "occasion": [
+                "Birthday_Celebration",
+                "Baby_Shower",
+                "House_Party"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Savoury Restaurant",
+            "totalDish": 10,
+            "cover": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps151552_THCA173831D03_29_4b.jpg?resize=768,768",
+            "price": 300,
+            "rating": 4.1,
+            "totalRatings": 789,
+            "type": [
+                "veg",
+                "non-veg"
+            ],
+            "format": [
+                "Buffet",
+                "Mini_Buffet",
+                "Live_Counter"
+            ],
+            "occasion": [
+                "Birthday_Celebration",
+                "Baby_Shower",
+                "House_Party",
+                "Society_Event"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Onesta",
+            "totalDish": 14,
+            "cover": "https://www.tasteofhome.com/wp-content/uploads/2021/03/Burger-Sliders-with-Secret-Sauce_EXPS_MTBZ21_260175_B03_11_2b-1.jpg?resize=768,768",
+            "price": 150,
+            "rating": 4.5,
+            "totalRatings": 100,
+            "type": [
+                "veg"
+            ],
+            "format": [
+                "Snack_Box",
+                "Pop_Up",
+                "Food_Trucks"
+            ],
+            "occasion": [
+                "House_Warming",
+                "House_Party",
+                "Society_Event"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Punjabi Nawabi",
+            "totalDish": 10,
+            "cover": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Lime-Chicken-Tacos_EXPS_SSCRDS17_34347_B03_22_1b-2.jpg?resize=768,768",
+            "price": 350,
+            "rating": 3.5,
+            "totalRatings": 1178,
+            "type": [
+                "veg",
+                "non-veg"
+            ],
+            "format": [
+                "Buffet",
+                "Mini_Buffet",
+                "Live_Counter"
+            ],
+            "occasion": [
+                "Birthday_Celebration",
+                "Baby_Shower",
+                "House_Party",
+                "Society_Event"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "MOJO Pizza Point",
+            "totalDish": 16,
+            "cover": "https://b.zmtcdn.com/data/pictures/chains/2/18407932/ca82f6dcc2591350be0cb303715ebe66_o2_featured_v2.jpg",
+            "price": 150,
+            "rating": 4.0,
+            "totalRatings": 920,
+            "type": [
+                "veg",
+                "non-veg"
+            ],
+            "format": [
+                "Live_Counter",
+                "Pop Up",
+                "Snack_Box"
+            ],
+            "occasion": [
+                "House Party"
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Kannur Food Point",
+            "totalDish": 12,
+            "cover": "https://b.zmtcdn.com/data/pictures/2/57282/04d63f848b20bcc3e453b8f319f5c5f2_o2_featured_v2.jpg",
+            "price": 400,
+            "rating": 3.0,
+            "totalRatings": 1420,
+            "type": [
+                "non-veg"
+            ],
+            "format": [
+                "Live_Counter",
+                "Pop_Up",
+                "Snack_Box",
+                "Buffet",
+                "Mini_Buffet"
+            ],
+            "occasion": [
+                "House_Party",
+                "Baby_Shower",
+                "Birthday_Celebration",
+                "Society_Event",
+                "House_Warming"
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Behrouz Biryani",
+            "totalDish": 15,
+            "cover": "https://b.zmtcdn.com/data/pictures/chains/3/18343993/7d1d6155fa28b3864c1f71342eea8b1c_o2_featured_v2.jpg",
+            "price": 350,
+            "rating": 4.0,
+            "totalRatings": 1178,
+            "type": [
+                "non-veg"
+            ],
+            "format": [
+                "Live_Counter",
+                "Pop_Up",
+                "Snack_Box",
+                "Buffet",
+                "Mini_Buffet"
+            ],
+            "occasion": [
+                "House_Party",
+                "Baby_Shower",
+                "Birthday_Celebration",
+                "Society_Event",
+                "House_Warming"
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Taco Bell",
+            "totalDish": 6,
+            "cover": "https://b.zmtcdn.com/data/pictures/chains/8/51828/3b197d4bf4242e6569629cadd1b38031_o2_featured_v2.jpg",
+            "price": 150,
+            "rating": 4.0,
+            "totalRatings": 920,
+            "type": [
+                "veg",
+                "non-veg"
+            ],
+            "format": [
+                "Live_Counter",
+                "Pop_Up",
+                "Snack_Box",
+                "Food_Trucks"
+            ],
+            "occasion": [
+                "House_Party",
+                "Society_Event"
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Hotel Aditya",
+            "totalDish": 20,
+            "cover": "https://b.zmtcdn.com/data/pictures/8/19802838/99615ec8704780015566e2d74a58251b_o2_featured_v2.jpg",
+            "price": 199,
+            "rating": 4.3,
+            "totalRatings": 567,
+            "type": [
+                "veg",
+                "non-veg"
+            ],
+            "format": [
+                "Live_Counter",
+                "Snack_Box",
+                "Buffet",
+                "Mini_Buffet"
+            ],
+            "occasion": [
+                "House_Party",
+                "Baby_Shower",
+                "Birthday_Celebration",
+                "Society_Event",
+                "House_Warming"
+            ]
+        },
+        {
+            "id": 12,
+            "name": "The Combo Co.",
+            "totalDish": 10,
+            "cover": "https://b.zmtcdn.com/data/pictures/2/18787862/cd420b216e68c0a122b1739259bd1129_o2_featured_v2.jpg",
+            "price": 220,
+            "rating": 4.0,
+            "totalRatings": 567,
+            "type": [
+                "veg",
+                "non-veg"
+            ],
+            "format": [
+                "Live_Counter",
+                "Buffet",
+                "Mini_Buffet"
+            ],
+            "occasion": [
+                "House_Party",
+                "Baby_Shower",
+                "Society_Event"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Mama Mia",
+            "totalDish": 18,
+            "cover": "https://b.zmtcdn.com/data/pictures/chains/1/20951/4b155fd5dafe869f5225d7862bd936cb_o2_featured_v2.jpg",
+            "price": 60,
+            "rating": 5.0,
+            "totalRatings": 397,
+            "type": [
+                "veg"
+            ],
+            "format": [
+                "Live_Counter",
+                "Pop_Up",
+                "Food_Trucks"
+            ],
+            "occasion": [
+                "Birthday_Celebration",
+                "Baby_Shower"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Haji Saheb",
+            "totalDish": 4,
+            "cover": "https://b.zmtcdn.com/data/pictures/3/24573/d66a6f28a92c6d2a160e7c75b67af60c_o2_featured_v2.jpg",
+            "price": 100,
+            "rating": 4.0,
+            "totalRatings": 721,
+            "type": [
+                "veg",
+                "non-veg"
+            ],
+            "format": [
+                "Live_Counter",
+                "Snack_Box",
+                "Buffet",
+                "Mini_Buffet"
+            ],
+            "occasion": [
+                "House_Party",
+                "Baby_Shower",
+                "Birthday_Celebration",
+                "Society_Event",
+                "House_Warming"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Dhaba Junction",
+            "totalDish": 18,
+            "cover": "https://b.zmtcdn.com/data/pictures/chains/5/18625485/e81dd5ad28bfbc0d02e4f396fae54088_o2_featured_v2.jpg",
+            "price": 200,
+            "rating": 4.3,
+            "totalRatings": 1567,
+            "type": [
+                "veg",
+                "non-veg"
+            ],
+            "format": [
+                "Live_Counter",
+                "Pop_Up",
+                "Snack_Box",
+                "Buffet",
+                "Mini_Buffet",
+                "Food_Trucks"
+            ],
+            "occasion": [
+                "House_Party",
+                "Society_Event",
+                "Birthday_Celebration"
+            ]
+        },
+        {
+            "id": 16,
+            "name": "Baskin Robin",
+            "totalDish": 12,
+            "cover": "https://b.zmtcdn.com/data/pictures/chains/6/20976/a559d962d8dfbe0a3efb01c867126cc0_o2_featured_v2.jpg",
+            "price": 200,
+            "rating": 5.0,
+            "totalRatings": 397,
+            "type": [
+                "veg"
+            ],
+            "format": [
+                "Live_Counter",
+                "Pop_Up",
+                "Snack_Box"
+            ],
+            "occasion": [
+                "House_Party",
+                "Birthday_Celebration",
+                "Baby_Shower"
+            ]
+        },
+        {
+            "id": 17,
+            "name": "Royal Indian Restaurant",
+            "totalDish": 10,
+            "cover": "https://b.zmtcdn.com/data/pictures/5/25705/e2f6198514ae7714c201f8b95dd9a01c_o2_featured_v2.jpg",
+            "price": 150,
+            "rating": 4.0,
+            "totalRatings": 956,
+            "type": [
+                "veg",
+                "non-veg"
+            ],
+            "format": [
+                "Live_Counter",
+                "Pop_Up",
+                "Snack_Box",
+                "Food_Trucks",
+                "Buffet",
+                "Mini_Buffet",
+                "Lunch_Box"
+            ],
+            "occasion": [
+                "House_Party",
+                "Society_Event",
+                "Birthday_Celebration",
+                "Baby_Shower",
+                "Society_Event"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Roll It Out",
+            "totalDish": 10,
+            "cover": "https://b.zmtcdn.com/data/pictures/chains/3/18767033/b59547faeafbbe4e3fc803be7fefd781_o2_featured_v2.jpg",
+            "price": 250,
+            "rating": 5.0,
+            "totalRatings": 197,
+            "type": [
+                "veg",
+                "non-veg"
+            ],
+            "format": [
+                "Snack_Box",
+                "Lunch_Box"
+            ],
+            "occasion": [
+                "House_Party",
+                "Society_Event"
+            ]
+        },
+        {
+            "id": 19,
+            "name": "The Food Court",
+            "totalDish": 15,
+            "cover": "https://b.zmtcdn.com/data/pictures/3/19332933/cf890143e0f26a6a686c0a40b04fdbe6_o2_featured_v2.jpg",
+            "price": 199,
+            "rating": 4.0,
+            "totalRatings": 667,
+            "type": [
+                "veg",
+                "non-veg"
+            ],
+            "format": [
+                "Live_Counter",
+                "Snack_Box",
+                "Buffet",
+                "Mini_Buffet"
+            ],
+            "occasion": [
+                "House_Party",
+                "Birthday_elebration",
+                "Baby_Shower"
+            ]
+        },
+        {
+            "id": 20,
+            "name": "New Taj Biriyani",
+            "totalDish": 17,
+            "cover": "https://b.zmtcdn.com/data/pictures/chains/8/19214678/d499b2913808729e8cb03a553a01cf53_o2_featured_v2.jpg",
+            "price": 150,
+            "rating": 4.0,
+            "totalRatings": 772,
+            "type": [
+                "non-veg"
+            ],
+            "format": [
+                "Live_Counter",
+                "Buffet",
+                "Mini_Buffet",
+                "Food_Trucks"
+            ],
+            "occasion": [
+                "House_Party",
+                "Society_Event",
+                "Birthday_Celebration",
+                "Baby_Shower"
+            ]
+        }
+    ]
+}
